@@ -1,4 +1,58 @@
 body
 {
-    font-family: ;
+    background-color: lightgrey;
+font-family: 'Lato', sans-serif;;
+}
+h2,p,.readme-wrapper
+{
+    text-align: center;   
+}
+a:hover{  
+    font-weight: bold;
+    color: brown;
+    background-color: yellow;  
+}
+a{
+    text-decoration: none;
+}
+.italic-Red
+{
+    font: italic;
+    font-weight: bold;
+    color: red;
+}
+.boxes{
+margin: 0.2em;
+padding: 0.2em;
+border: solid rgb(10, 9, 88);
+border-radius: 0.5em;
+width: 30em;
+display: block;
+}
+#box1
+{
+    background-color:yellow;
+}
+#box2
+{   
+    background-color: cadetblue;
+}
+#box3
+{
+    background-color: chocolate;
+}
+#box4
+{
+    background-color: darkgoldenrod;
+}   
+.image
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: green;
+    position: absolute;
+    left: 9em;
+    top: 1.4em;
+
 }
